@@ -14,6 +14,9 @@
 		0C79ACA22A0C40F8000EAD0C /* ExpenseTrackerNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACA12A0C40F8000EAD0C /* ExpenseTrackerNewTests.swift */; };
 		0C79ACAC2A0C40F8000EAD0C /* ExpenseTrackerNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACAB2A0C40F8000EAD0C /* ExpenseTrackerNewUITests.swift */; };
 		0C79ACAE2A0C40F8000EAD0C /* ExpenseTrackerNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACAD2A0C40F8000EAD0C /* ExpenseTrackerNewUITestsLaunchTests.swift */; };
+		0C79ACBE2A0C47E1000EAD0C /* Expense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACBC2A0C47E1000EAD0C /* Expense.xcdatamodeld */; };
+		0C79ACC02A0C4891000EAD0C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACBF2A0C4891000EAD0C /* DataController.swift */; };
+		0C79ACC22A0C49E2000EAD0C /* CreateExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0C79ACA72A0C40F8000EAD0C /* ExpenseTrackerNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C79ACAB2A0C40F8000EAD0C /* ExpenseTrackerNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerNewUITests.swift; sourceTree = "<group>"; };
 		0C79ACAD2A0C40F8000EAD0C /* ExpenseTrackerNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C79ACBD2A0C47E1000EAD0C /* Expense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Expense.xcdatamodel; sourceTree = "<group>"; };
+		0C79ACBF2A0C4891000EAD0C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		0C79AC8F2A0C40F4000EAD0C /* ExpenseTrackerNew */ = {
 			isa = PBXGroup;
 			children = (
+				0C79ACBB2A0C47B8000EAD0C /* Views */,
+				0C79ACBA2A0C47AF000EAD0C /* Model */,
 				0C79AC902A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift */,
 				0C79AC922A0C40F4000EAD0C /* ContentView.swift */,
 				0C79AC942A0C40F8000EAD0C /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				0C79ACAD2A0C40F8000EAD0C /* ExpenseTrackerNewUITestsLaunchTests.swift */,
 			);
 			path = ExpenseTrackerNewUITests;
+			sourceTree = "<group>";
+		};
+		0C79ACBA2A0C47AF000EAD0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C79ACBC2A0C47E1000EAD0C /* Expense.xcdatamodeld */,
+				0C79ACBF2A0C4891000EAD0C /* DataController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C79ACBB2A0C47B8000EAD0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C79AC932A0C40F4000EAD0C /* ContentView.swift in Sources */,
+				0C79ACC02A0C4891000EAD0C /* DataController.swift in Sources */,
 				0C79AC912A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift in Sources */,
+				0C79ACC22A0C49E2000EAD0C /* CreateExpense.swift in Sources */,
+				0C79ACBE2A0C47E1000EAD0C /* Expense.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +605,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0C79ACBC2A0C47E1000EAD0C /* Expense.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0C79ACBD2A0C47E1000EAD0C /* Expense.xcdatamodel */,
+			);
+			currentVersion = 0C79ACBD2A0C47E1000EAD0C /* Expense.xcdatamodel */;
+			path = Expense.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0C79AC852A0C40F4000EAD0C /* Project object */;
 }
