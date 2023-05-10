@@ -17,6 +17,7 @@
 		0C79ACBE2A0C47E1000EAD0C /* Expense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACBC2A0C47E1000EAD0C /* Expense.xcdatamodeld */; };
 		0C79ACC02A0C4891000EAD0C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACBF2A0C4891000EAD0C /* DataController.swift */; };
 		0C79ACC22A0C49E2000EAD0C /* CreateExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */; };
+		0C79ACC42A0C5CCA000EAD0C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACC32A0C5CCA000EAD0C /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		0C79ACBD2A0C47E1000EAD0C /* Expense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Expense.xcdatamodel; sourceTree = "<group>"; };
 		0C79ACBF2A0C4891000EAD0C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpense.swift; sourceTree = "<group>"; };
+		0C79ACC32A0C5CCA000EAD0C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */,
+				0C79ACC32A0C5CCA000EAD0C /* HomePage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C79AC932A0C40F4000EAD0C /* ContentView.swift in Sources */,
+				0C79ACC42A0C5CCA000EAD0C /* HomePage.swift in Sources */,
 				0C79ACC02A0C4891000EAD0C /* DataController.swift in Sources */,
 				0C79AC912A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift in Sources */,
 				0C79ACC22A0C49E2000EAD0C /* CreateExpense.swift in Sources */,

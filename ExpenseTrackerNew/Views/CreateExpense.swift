@@ -167,6 +167,12 @@ struct CreateExpense: View {
                     
                     printInformation = "Title: " + title + "\nDescription" + description + "\nAmount: \(amount)"
                     
+                    //Reset Form
+                    title = ""
+                    description = "Short Description of the expense..."
+                    amountMessage = ""
+                    expenseType = false
+                    
                 }, label: {
                     Text("Submit".uppercased())
                         .padding()
