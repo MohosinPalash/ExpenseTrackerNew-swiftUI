@@ -47,6 +47,7 @@ class DataController: ObservableObject {
         expense.paymentDate = Date()
         
         save(context: context)
+        print("Date inserted succesfully!")
     }
     
     //Update Operation
