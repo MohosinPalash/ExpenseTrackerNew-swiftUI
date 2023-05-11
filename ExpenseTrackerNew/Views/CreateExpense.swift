@@ -10,7 +10,11 @@ import SwiftUI
 struct CreateExpense: View {
     
     @Environment(\.managedObjectContext) var managedObjContext
+    //Dismiss Keyboard
+    //Clear - Dismiss
     
+    //Not title in backbutton
+    //Overlap title
     
     
     @State var title: String = ""
