@@ -9,6 +9,10 @@ import SwiftUI
 
 struct CreateExpense: View {
     
+    init() {
+        UITextView.appearance().backgroundColor = .clear
+    }
+    
     @Environment(\.managedObjectContext) var managedObjContext
     
     
@@ -49,9 +53,8 @@ struct CreateExpense: View {
                         
                         TextEditor(text: $description)
                             .frame(height: 100)
-                            //.colorMultiply(Color.brown.opacity(0.2))
                             .font(.headline)
-                            .foregroundColor(Color.black.opacity(1))
+                            .background(.brown.opacity(0.2))
                             .cornerRadius(10)
                             .toolbar {
                                 ToolbarItemGroup(placement: .keyboard) {
@@ -187,6 +190,7 @@ struct CreateExpense: View {
             
             .padding()
             .navigationTitle("Create Expense")
+            .navigationBarHidden(true)
         }
     }
 }
