@@ -16,6 +16,9 @@ struct HomePage: View {
         //Text("No of expenses: \(expenses.count)")
         NavigationView {
             VStack {
+                Text("Expense Tracker")
+                    .font(.title)
+                    .bold()
                 HStack {
                     Spacer()
                     NavigationLink ("Add Expense", destination: CreateExpense())
@@ -43,7 +46,7 @@ struct HomePage: View {
                 }
                 
             }
-            .navigationTitle("Expense Tracker")
+            .navigationTitle("")
         }
         
     }
