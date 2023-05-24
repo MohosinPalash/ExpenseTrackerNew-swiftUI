@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6517B22A1435FB00087BB2 /* recurrentExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6517B12A1435FB00087BB2 /* recurrentExpenses.swift */; };
+		0C6517B42B577DAA00087BB2 /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6517B32B577DAA00087BB2 /* validation.swift */; };
+		0C6517B62B577DAA00087BB2 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6517B52B577DAA00087BB2 /* GridView.swift */; };
 		0C79AC912A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC902A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift */; };
 		0C79AC932A0C40F4000EAD0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC922A0C40F4000EAD0C /* ContentView.swift */; };
 		0C79AC952A0C40F8000EAD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C79AC942A0C40F8000EAD0C /* Assets.xcassets */; };
@@ -18,6 +21,13 @@
 		0C79ACC02A0C4891000EAD0C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACBF2A0C4891000EAD0C /* DataController.swift */; };
 		0C79ACC22A0C49E2000EAD0C /* CreateExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */; };
 		0C79ACC42A0C5CCA000EAD0C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACC32A0C5CCA000EAD0C /* HomePage.swift */; };
+		0C79ACC82A0E6D77000EAD0C /* UpdateExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACC72A0E6D77000EAD0C /* UpdateExpense.swift */; };
+		0C79ACCB2A11E062000EAD0C /* PaidExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACCA2A11E061000EAD0C /* PaidExpenses.swift */; };
+		0C79ACCD2A11E07B000EAD0C /* PendingExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79ACCC2A11E07B000EAD0C /* PendingExpenses.swift */; };
+		0CD85CEF2A178ADE0083945E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CEE2A178ADE0083945E /* ListView.swift */; };
+		0CD85CF12A17B3150083945E /* GridPaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CF02A17B3150083945E /* GridPaid.swift */; };
+		0CD85CF32A17B32B0083945E /* GridPending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CF22A17B32B0083945E /* GridPending.swift */; };
+		0CD85CF52B599C930083945E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CF42B599C930083945E /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6517B12A1435FB00087BB2 /* recurrentExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recurrentExpenses.swift; sourceTree = "<group>"; };
+		0C6517B32B577DAA00087BB2 /* validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
+		0C6517B52B577DAA00087BB2 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		0C79AC8D2A0C40F4000EAD0C /* ExpenseTrackerNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTrackerNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C79AC902A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerNewApp.swift; sourceTree = "<group>"; };
 		0C79AC922A0C40F4000EAD0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +65,13 @@
 		0C79ACBF2A0C4891000EAD0C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpense.swift; sourceTree = "<group>"; };
 		0C79ACC32A0C5CCA000EAD0C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		0C79ACC72A0E6D77000EAD0C /* UpdateExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpense.swift; sourceTree = "<group>"; };
+		0C79ACCA2A11E061000EAD0C /* PaidExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidExpenses.swift; sourceTree = "<group>"; };
+		0C79ACCC2A11E07B000EAD0C /* PendingExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingExpenses.swift; sourceTree = "<group>"; };
+		0CD85CEE2A178ADE0083945E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		0CD85CF02A17B3150083945E /* GridPaid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPaid.swift; sourceTree = "<group>"; };
+		0CD85CF22A17B32B0083945E /* GridPending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPending.swift; sourceTree = "<group>"; };
+		0CD85CF42B599C930083945E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C6517B02A14358400087BB2 /* Helper functions */ = {
+			isa = PBXGroup;
+			children = (
+				0C6517B12A1435FB00087BB2 /* recurrentExpenses.swift */,
+				0C6517B32B577DAA00087BB2 /* validation.swift */,
+			);
+			path = "Helper functions";
+			sourceTree = "<group>";
+		};
 		0C79AC842A0C40F4000EAD0C = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +131,8 @@
 		0C79AC8F2A0C40F4000EAD0C /* ExpenseTrackerNew */ = {
 			isa = PBXGroup;
 			children = (
+				0C6517B02A14358400087BB2 /* Helper functions */,
+				0C79ACC92A11E035000EAD0C /* Helpers */,
 				0C79ACBB2A0C47B8000EAD0C /* Views */,
 				0C79ACBA2A0C47AF000EAD0C /* Model */,
 				0C79AC902A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift */,
@@ -151,8 +182,23 @@
 			children = (
 				0C79ACC12A0C49E2000EAD0C /* CreateExpense.swift */,
 				0C79ACC32A0C5CCA000EAD0C /* HomePage.swift */,
+				0CD85CEE2A178ADE0083945E /* ListView.swift */,
+				0C79ACC72A0E6D77000EAD0C /* UpdateExpense.swift */,
+				0C6517B52B577DAA00087BB2 /* GridView.swift */,
+				0CD85CF42B599C930083945E /* ChartView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0C79ACC92A11E035000EAD0C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0C79ACCA2A11E061000EAD0C /* PaidExpenses.swift */,
+				0C79ACCC2A11E07B000EAD0C /* PendingExpenses.swift */,
+				0CD85CF02A17B3150083945E /* GridPaid.swift */,
+				0CD85CF22A17B32B0083945E /* GridPending.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,11 +332,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C79AC932A0C40F4000EAD0C /* ContentView.swift in Sources */,
+				0CD85CEF2A178ADE0083945E /* ListView.swift in Sources */,
 				0C79ACC42A0C5CCA000EAD0C /* HomePage.swift in Sources */,
+				0C79ACCD2A11E07B000EAD0C /* PendingExpenses.swift in Sources */,
 				0C79ACC02A0C4891000EAD0C /* DataController.swift in Sources */,
+				0C79ACC82A0E6D77000EAD0C /* UpdateExpense.swift in Sources */,
 				0C79AC912A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift in Sources */,
+				0CD85CF52B599C930083945E /* ChartView.swift in Sources */,
+				0CD85CF12A17B3150083945E /* GridPaid.swift in Sources */,
 				0C79ACC22A0C49E2000EAD0C /* CreateExpense.swift in Sources */,
+				0C6517B42B577DAA00087BB2 /* validation.swift in Sources */,
+				0C79ACCB2A11E062000EAD0C /* PaidExpenses.swift in Sources */,
 				0C79ACBE2A0C47E1000EAD0C /* Expense.xcdatamodeld in Sources */,
+				0CD85CF32A17B32B0083945E /* GridPending.swift in Sources */,
+				0C6517B62B577DAA00087BB2 /* GridView.swift in Sources */,
+				0C6517B22A1435FB00087BB2 /* recurrentExpenses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

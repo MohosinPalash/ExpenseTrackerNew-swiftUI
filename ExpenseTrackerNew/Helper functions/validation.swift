@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+func textValidation (textToCheck: String) -> Bool {
+    if textToCheck.count > 0 {
+        return true
+    } else {
+        return false
+    }
+}

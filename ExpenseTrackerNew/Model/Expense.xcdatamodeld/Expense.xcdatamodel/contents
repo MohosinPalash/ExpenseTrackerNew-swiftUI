@@ -10,8 +10,9 @@
         <attribute name="status" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="title" optional="YES" attributeType="String"/>
         <attribute name="type" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="updatedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <elements>
-        <element name="ExpenseEntity" positionX="-45" positionY="0" width="128" height="164"/>
+        <element name="ExpenseEntity" positionX="-45" positionY="0" width="128" height="179"/>
     </elements>
 </model>
