@@ -68,4 +68,19 @@ class DataController: ObservableObject {
         
         save(context: context)
     }
+    
+    func deleteExpense(expense: ExpenseEntity, context: NSManagedObjectContext) {
+        context.delete(expense)
+        save(context: context)
+        print("Specific data successfully!")
+    }
+    
+    func deleteMultipleExpenses(selectedItems: [ExpenseEntity], context: NSManagedObjectContext) {
+        for expense in selectedItems {
+            context.delete(expense)
+            save(context: context)
+            //context.refreshAllObjects()
+        }
+        print("Specific data successfully!")
+    }
 }

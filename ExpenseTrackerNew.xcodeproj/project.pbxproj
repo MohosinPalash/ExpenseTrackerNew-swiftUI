@@ -28,6 +28,7 @@
 		0CD85CF12A17B3150083945E /* GridPaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CF02A17B3150083945E /* GridPaid.swift */; };
 		0CD85CF32A17B32B0083945E /* GridPending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CF22A17B32B0083945E /* GridPending.swift */; };
 		0CD85CF52B599C930083945E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CF42B599C930083945E /* ChartView.swift */; };
+		0CD85CF72B599C930083945E /* EachGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD85CF62B599C930083945E /* EachGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		0CD85CF02A17B3150083945E /* GridPaid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPaid.swift; sourceTree = "<group>"; };
 		0CD85CF22A17B32B0083945E /* GridPending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPending.swift; sourceTree = "<group>"; };
 		0CD85CF42B599C930083945E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		0CD85CF62B599C930083945E /* EachGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 				0C79ACCC2A11E07B000EAD0C /* PendingExpenses.swift */,
 				0CD85CF02A17B3150083945E /* GridPaid.swift */,
 				0CD85CF22A17B32B0083945E /* GridPending.swift */,
+				0CD85CF62B599C930083945E /* EachGrid.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C79AC932A0C40F4000EAD0C /* ContentView.swift in Sources */,
+				0CD85CF72B599C930083945E /* EachGrid.swift in Sources */,
 				0CD85CEF2A178ADE0083945E /* ListView.swift in Sources */,
 				0C79ACC42A0C5CCA000EAD0C /* HomePage.swift in Sources */,
 				0C79ACCD2A11E07B000EAD0C /* PendingExpenses.swift in Sources */,

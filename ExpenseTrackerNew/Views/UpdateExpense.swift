@@ -86,7 +86,7 @@ struct UpdateExpense: View {
                         type: expense.type,
                         status: true,
                         createdDate: expense.createdDate!,
-                        updatedDate: expense.updatedDate!,
+                        updatedDate: expense.updatedDate ?? Date(),
                         context: managedObjContext)
                     dismiss()
                 }

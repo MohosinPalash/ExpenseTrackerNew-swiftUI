@@ -3,13 +3,6 @@
 //  ExpenseTrackerNew
 //
 //  Created by Mohosin Islam Palash on 19/5/23.
-// Add Button
-// 1. ADD View, Delete button
-// 2. Perform Multiple delete
-// 3. Study long press button
-// 4. Fix Toggle button
-// 5. chart: Monthly Expense
-// 6. add button color correction
 
 import SwiftUI
 
