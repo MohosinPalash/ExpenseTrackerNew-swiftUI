@@ -68,7 +68,7 @@ struct UpdateExpense: View {
                 Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: 500)
-            .background(Color.blue.opacity(0.4))
+            .background(Color.brown.opacity(0.4))
             .cornerRadius(25)
             .padding()
             

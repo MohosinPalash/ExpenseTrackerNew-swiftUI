@@ -220,6 +220,8 @@
 			dependencies = (
 			);
 			name = ExpenseTrackerNew;
+			packageProductDependencies = (
+			);
 			productName = ExpenseTrackerNew;
 			productReference = 0C79AC8D2A0C40F4000EAD0C /* ExpenseTrackerNew.app */;
 			productType = "com.apple.product-type.application";
@@ -292,6 +294,8 @@
 				Base,
 			);
 			mainGroup = 0C79AC842A0C40F4000EAD0C;
+			packageReferences = (
+			);
 			productRefGroup = 0C79AC8E2A0C40F4000EAD0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -516,6 +520,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,6 +549,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

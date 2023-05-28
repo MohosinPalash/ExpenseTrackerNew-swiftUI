@@ -5,10 +5,6 @@
 //  Created by Mohosin Islam Palash on 10/5/23.
 
 
-//Task:
-// Delete by swipe by showing alert button -
-// Grid Correction - 
-
 import SwiftUI
 
 struct CreateExpense: View {

@@ -55,10 +55,12 @@ struct EachGrid: View {
                 Spacer()
                 
                 Button {
-                    showAlert = true
+                    if selectedItems.count == 0 {
+                        showAlert = true
+                    }
                 } label: {
                     Image(systemName: "trash.fill")
-                        .foregroundColor(Color.white)
+                        .foregroundColor(selectedItems.count > 0 ? Color.brown : Color.white)
                         .padding(.horizontal)
                         .font(.headline)
                 }

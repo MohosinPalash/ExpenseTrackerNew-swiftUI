@@ -3,7 +3,7 @@
 //  ExpenseTrackerNew
 //
 //  Created by Mohosin Islam Palash on 19/5/23.
-
+// local array expense,
 import SwiftUI
 
 struct GridPending: View {
@@ -21,6 +21,10 @@ struct GridPending: View {
     
     @Binding var changeGridLayout: Bool
     @State private var showAlert: Bool = false
+    @State private var selectToDelete: Bool = false
+    @State private var singleDelete: Bool = true
+    //@State var selectedItems: [ExpenseEntity] = []
+    @Binding var selectedItems: [ExpenseEntity]
     
     var body: some View {
         VStack {
@@ -33,77 +37,13 @@ struct GridPending: View {
                         ForEach(expenses) {expense in
                             if !expense.status {
                                 NavigationLink (destination: UpdateExpense( expense: expense)) {
-                                    
-                                    VStack {
-                                        HStack{
-                                            Text(expense.title!)
-                                                .font(.headline)
-                                                .foregroundColor(Color.white)
-                                                .padding(.top)
-                                                .multilineTextAlignment(.center)
-                                            if expense.type {
-                                                Image(systemName: "paperplane.circle.fill")
-                                                    .foregroundColor(Color.white)
-                                                    .padding(.top)
-                                            }
-                                        }
-                                        if changeGridLayout {
-                                            Text(expense.desc!)
-                                                .foregroundColor(Color.white)
-                                                .font(.headline)
-                                        }
-                                        Text(expense.category!)
-                                            .foregroundColor(Color.white)
-                                        Text(expense.createdDate!.formatted())
-                                            .foregroundColor(Color.white)
-                                        
-                                        Spacer()
-                                        
-                                        Text("TK. \(Int(expense.amount))")
-                                            .font(.title)
-                                            .fontWeight(.bold)
-                                            .frame(width: changeGridLayout ? 180 : 380, height: 40)
-                                            .background(Color.white)
-                                            .foregroundColor(Color.brown)
-                                            .cornerRadius(10)
-                                            .padding(.vertical)
-                                        
-                                    }
-                                    .frame(width: changeGridLayout ? 200 : 400, height: changeGridLayout ? 180 : 140)
-                                    .background(Color.brown)
-                                    .cornerRadius(20)
+                                    EachGrid(changeGridLayout: $changeGridLayout, selectedItems: $selectedItems, singleDelete: $singleDelete, expense: expense)
                                 }
-                                .swipeActions (edge: .trailing) {
-                                    
-                                    Button("Delete") {
-                                        showAlert = true
-                                    }
-                                    .background(Color.red)
-                                }
-                                .alert(isPresented: $showAlert, content: {
-                                    Alert(
-                                        title: Text("Are you sure to delete?"),
-                                        message: Text("Delete \(expense.title!)"),
-                                        primaryButton: .destructive(Text("Delete"), action: {
-                                            deleteExpense(expense: expense)
-                                        }),
-                                        secondaryButton: .cancel()
-                                    )
-                                })
                             }
                         }
                     }
                 )
             }
-        }
-    }
-    private func deleteExpense(expense: ExpenseEntity) {
-        withAnimation {
-            
-            managedObjectContext.delete(expense)
-
-            DataController().save(context: managedObjectContext)
-            print("Specific data successfully!")
         }
     }
 }
