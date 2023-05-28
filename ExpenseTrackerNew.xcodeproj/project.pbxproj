@@ -10,6 +10,7 @@
 		0C6517B22A1435FB00087BB2 /* recurrentExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6517B12A1435FB00087BB2 /* recurrentExpenses.swift */; };
 		0C6517B42B577DAA00087BB2 /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6517B32B577DAA00087BB2 /* validation.swift */; };
 		0C6517B62B577DAA00087BB2 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6517B52B577DAA00087BB2 /* GridView.swift */; };
+		0C7752712A23305B00D91E90 /* BulkDataInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7752702A23305B00D91E90 /* BulkDataInsert.swift */; };
 		0C79AC912A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC902A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift */; };
 		0C79AC932A0C40F4000EAD0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC922A0C40F4000EAD0C /* ContentView.swift */; };
 		0C79AC952A0C40F8000EAD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C79AC942A0C40F8000EAD0C /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		0C6517B12A1435FB00087BB2 /* recurrentExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recurrentExpenses.swift; sourceTree = "<group>"; };
 		0C6517B32B577DAA00087BB2 /* validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
 		0C6517B52B577DAA00087BB2 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		0C7752702A23305B00D91E90 /* BulkDataInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkDataInsert.swift; sourceTree = "<group>"; };
 		0C79AC8D2A0C40F4000EAD0C /* ExpenseTrackerNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTrackerNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C79AC902A0C40F4000EAD0C /* ExpenseTrackerNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerNewApp.swift; sourceTree = "<group>"; };
 		0C79AC922A0C40F4000EAD0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				0CD85CF02A17B3150083945E /* GridPaid.swift */,
 				0CD85CF22A17B32B0083945E /* GridPending.swift */,
 				0CD85CF62B599C930083945E /* EachGrid.swift */,
+				0C7752702A23305B00D91E90 /* BulkDataInsert.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				0C6517B42B577DAA00087BB2 /* validation.swift in Sources */,
 				0C79ACCB2A11E062000EAD0C /* PaidExpenses.swift in Sources */,
 				0C79ACBE2A0C47E1000EAD0C /* Expense.xcdatamodeld in Sources */,
+				0C7752712A23305B00D91E90 /* BulkDataInsert.swift in Sources */,
 				0CD85CF32A17B32B0083945E /* GridPending.swift in Sources */,
 				0C6517B62B577DAA00087BB2 /* GridView.swift in Sources */,
 				0C6517B22A1435FB00087BB2 /* recurrentExpenses.swift in Sources */,

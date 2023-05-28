@@ -54,7 +54,7 @@ class DataController: ObservableObject {
     }
     
     //Insert Bulk Expenses
-    func insertBulkExpense (title: String, description: String, amount: Double, category: String, type: Bool, status: Bool, context: NSManagedObjectContext) {
+    func insertBulkExpense (title: String, description: String, amount: Double, category: String, type: Bool, status: Bool, createdDate: Date, paymentDate: Date, updatedDate: Date, context: NSManagedObjectContext) {
         let expense = ExpenseEntity(context: context)
         
         expense.id = UUID()
@@ -64,12 +64,12 @@ class DataController: ObservableObject {
         expense.category = category
         expense.type = type
         expense.status = status
-        expense.createdDate = Date()
-        expense.paymentDate = Date()
-        expense.updatedDate = Date()
+        expense.createdDate = createdDate
+        expense.paymentDate = paymentDate
+        expense.updatedDate = updatedDate
         
         save(context: context)
-        print("Date inserted succesfully!")
+        print("Bulk Date inserted succesfully!")
     }
     
     
