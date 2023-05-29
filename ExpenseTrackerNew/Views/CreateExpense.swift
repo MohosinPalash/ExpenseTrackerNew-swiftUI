@@ -104,9 +104,8 @@ struct CreateExpense: View {
                                 
                                 TextEditor(text: $description)
                                     .frame(height: 100)
-                                    .background(Color.brown.opacity(0.2))
                                     .font(.headline)
-                                    .cornerRadius(10)
+                                    .padding(10)
                                     .toolbar {
                                         ToolbarItemGroup(placement: .keyboard) {
                                             Button("Dismiss"){
@@ -118,7 +117,8 @@ struct CreateExpense: View {
                                         }
                                     }
                             }
-                            
+                            .background(Color.brown.opacity(0.2))
+                            .cornerRadius(10)
                                 
                         }
                         

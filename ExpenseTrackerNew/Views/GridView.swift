@@ -15,6 +15,9 @@ struct GridView: View {
     @State private var showAddExpense = false
     @State private var changeGridLayout: Bool = false
     @State var selectedItems: [ExpenseEntity] = []
+    @State var pickerList: [String] = ["Select Year", "2030", "2031", "2032", "2033" ]
+    //@State var pickerList: [String] = ["Select Year" ]
+    @State var selectedArray: [CGFloat] = []
     
     @State private var showMultipleDeleteAlert = false
     
@@ -23,7 +26,7 @@ struct GridView: View {
             VStack {
                 HStack {
                     NavigationLink {
-                        ChartView()
+                        ChartView(pickerList: $pickerList)
                     } label: {
                         Image(systemName: "chart.line.uptrend.xyaxis.circle.fill")
                             .foregroundColor(Color.brown)
@@ -97,7 +100,6 @@ struct GridView: View {
                                 .font(.title)
                                 .fontWeight(.bold)
                         }
-                    
                 }
                 .accentColor(Color.black)
                 .navigationTitle("Expense Tracker")
