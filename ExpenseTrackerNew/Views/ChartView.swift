@@ -4,7 +4,10 @@
 //
 //  Created by Mohosin Islam Palash on 18/1/24.
 //
-// Insert data 
+
+//Mimimize amount text size
+
+
 
 import SwiftUI
 
@@ -27,6 +30,9 @@ struct ChartView: View {
     ]
     @Binding var pickerList: [String]
     @State var years: [Int] = []
+    
+    @State var minValue = 0
+    @State var maxvalue = 200
     
     func normalize (selectedArray: [CGFloat]) -> [CGFloat] {
         print(selectedArray)
@@ -136,7 +142,6 @@ struct ChartView: View {
                             } else {
                                 BarView(value: normalize(selectedArray: dataPoints[pickerSelectedItem].values)[index], month: month[index])
                             }
-//                            BarView(value: dataPoints[pickerSelectedItem].values[index], month: month[index])
                         }
                     }
                     .padding()
